@@ -7,7 +7,10 @@ import org.hibernate.cfg.Configuration;
 import com.how2java.pojo.Product;
 
 public class TestHibernate02 {
-
+	/**
+	 * 插入10条数据
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//获取SessionFactory
 		SessionFactory sf = new Configuration().configure().buildSessionFactory();
