@@ -7,7 +7,10 @@ import org.hibernate.cfg.Configuration;
 import com.how2java.pojo.Product;
 
 public class TestHibernate01 {
-
+	/**
+	 * Hello Hibernate
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		//ªÒ»°SessionFactory
 		SessionFactory sf = new Configuration().configure().buildSessionFactory();
